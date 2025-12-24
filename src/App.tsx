@@ -1,20 +1,22 @@
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Education from "./components/Education";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
-import Layout from "./components/Layout";
+import React from 'react';
+import Hero from './components/Hero';
+import About from './components/About';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
+import Achievements from './components/Achievements';
+import Contact from './components/Contact';
 
-export default function App() {
+function App() {
   return (
-    <Layout>
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white">
       <Hero />
       <About />
-      <Education />
       <Experience />
       <Skills />
+      <Achievements />
       <Contact />
-    </Layout>
+    </div>
   );
 }
+
+export default App;
