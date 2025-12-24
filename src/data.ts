@@ -119,7 +119,7 @@ export const SKILLS = [
 export const CONTACT = {
   wechat: {
     label: "微信",
-    qr: "/wechat-qr-placeholder.jpg",  // ← 修改这一行，匹配你的文件名
+    qr: "/my-wechat-qr.jpg",  // ← 修改这一行，匹配你的文件名
     tip: "扫码添加微信",
   },
   email: {
